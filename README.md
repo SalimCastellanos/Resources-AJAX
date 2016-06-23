@@ -1,8 +1,6 @@
-## Resources AJAX V0.0.1
+## Resources AJAX V0.0.2
 
-##Libreria javascript para el consumo de servicios web mediante AJAX
-
-##Para el correcto funcionamiento de esta libreria se necesita JQUERY 1.X
+##Libreria javascript para el consumo de servicios web mediante AJAX, para el correcto funcionamiento de esta libreria se necesita JQUERY 1.X
 
 ### Examples
 
