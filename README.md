@@ -1,7 +1,8 @@
 ## Resources AJAX V0.0.1
 
-Este readme describe el funcionamiento de la libreria resources-AJAX para el consumo de servicios mediante AJAX
-Para el correcto funcionamiento de esta libreria se necesita JQUERY 1.X
+##Libreria javascript para el consumo de servicios web mediante AJAX
+
+##Para el correcto funcionamiento de esta libreria se necesita JQUERY 1.X
 
 ### Examples
 
