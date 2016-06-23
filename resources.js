@@ -13,12 +13,12 @@ var resources = function(servicios){
     var resource = new modelo();
     
     agregarServicio = function(servicio){
-        resource[servicio.name] = function(parametros,callSuccess,callError){
+        resource[servicio.name] = function(data,callSuccess,callError){
             $.ajax({
             url: servicio.url,
             type: servicio.method,
             async: servicio.async,
-            data: { },
+            data: data,
             success: function(respuesta) {
                 callSuccess(respuesta);
             },
