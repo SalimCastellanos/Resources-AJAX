@@ -5,6 +5,7 @@ Para el correcto funcionamiento de esta libreria se necesita JQUERY 1.X
 
 ### Examples
 
+```javascript
 var serviciosGenericos = new resources([
     {
         name: "getPosts",
@@ -22,6 +23,6 @@ serviciosGenericos.getPosts({nombre:"Salim Castellanos"},
         
                             }
                            );
-
+```
 
 ### Más información contactar a salimsalim4@gmil.com
