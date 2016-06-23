@@ -19,7 +19,7 @@ serviciosGenericos.getPosts({nombre:"Salim Castellanos"},
                                 alert("entro exito: "+result);
                             },
                             function(err){
-        
+								alert("entro error: "+err);
                             }
                            );
 ```
