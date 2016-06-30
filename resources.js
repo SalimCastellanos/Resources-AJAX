@@ -31,7 +31,7 @@ var resources = function(servicios){
 
     for(var i=0; i<servicios.length; i++){
         var servicio = servicios[i];
-        agregarServicio(servicio, resource);
+        agregarServicio(servicio);
     }
       
     return resource;
