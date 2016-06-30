@@ -11,6 +11,12 @@ var serviciosGenericos = new resources([
         url : "http://localhost:3000/posts/",
         method : "GET",
         async : true      
+    },
+	{
+        name: "getComents",
+        url : "http://localhost:3000/posts/coments",
+        method : "GET",
+        async : true      
     }
 ]);
 
@@ -22,6 +28,16 @@ serviciosGenericos.getPosts({nombre:"Salim Castellanos"},
 								alert("entro error: "+err);
                             }
                            );
+						   
+serviciosGenericos.getComents({},
+                            function(result){
+                                alert("entro exito: "+result);
+                            },
+                            function(err){
+								alert("entro error: "+err);
+                            }
+                           );
+						   
 ```
 
 ### Más información contactar a salimsalim4@gmil.com
